@@ -1,0 +1,8 @@
+{    
+    "less.compile": {
+        "main": "${workspaceRoot}/serverfiles/themes/jtheme/less/build.less",
+        "compress":  false,  // true => remove surplus whitespace
+        "sourceMap": false,  // true => generate source maps (.css.map files)
+        "out":       "${workspaceRoot}/serverfiles/themes/jtheme/css/theme.css" // false => DON'T output .css files (overridable per-file, see below)
+    }
+}
