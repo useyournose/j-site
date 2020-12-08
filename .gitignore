@@ -1,5 +1,5 @@
 /images
-/serverfiles
-!/serverfiles/themes/jtheme
-!/serverfiles/themes/daftheme
-!/serverfiles/*
+/serverfiles/protected
+/serverfiles/static
+/serverfiles/themes/HumHub
+/serverfiles/README.md
