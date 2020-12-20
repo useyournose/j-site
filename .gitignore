@@ -1,5 +1,11 @@
 /images
-/serverfiles/protected
+/serverfiles/protected/**
+!/serverfiles/protected/config
+!/serverfiles/protected/config/web.php
 /serverfiles/static
 /serverfiles/themes/HumHub
 /serverfiles/README.md
+/backup
+/backup/syncjob
+/backup/dumps
+/backup/syncftp_clone.ps1
