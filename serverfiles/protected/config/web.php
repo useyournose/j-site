@@ -10,4 +10,9 @@ use yii\helpers\Url;
 
 return [
     'homeUrl' =>  ['/custom_pages/view/index', 'id' => 3],
+    'components' => [
+        'user' => [
+            'returnUrl' => ['/dashboard/dashboard'],
+        ],
+    ],
 ];
